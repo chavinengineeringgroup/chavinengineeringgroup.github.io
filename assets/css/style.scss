@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nav ul {
     list-style-type: none;
     margin: 0;
