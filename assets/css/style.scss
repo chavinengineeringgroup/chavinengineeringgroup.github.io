@@ -25,13 +25,14 @@
     width: 100%;
     list-style-type: none;
     overflow: hidden;
+    position: relative;
+    left: 50%;
 }
 
 
 .nav li {
     float: left;
-    position: relative;
-    left: 50%;
+
 }
 
 .nav li a {
