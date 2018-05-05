@@ -3,37 +3,16 @@
 
 @import "{{ site.theme }}";
 
-.nav {
-    width: 100%;
-    background-color: #333;
-    margin: 0 auto;
-    padding: 0px;
-}
-
-.center {
-    float: right;
-    position: relative;
-    left: -50%; /* or right 50% */
-    text-align: left;
-}
-
 .nav ul {
-    /* position: fixed;
-    top: 0;*/
-    background-color: #333;
-    margin: auto;
-    padding: 0px;
-    width: 100%;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    position: relative;
-    width: 100%;
+    background-color: #333;
 }
-
 
 .nav li {
     float: left;
-
 }
 
 .nav li a {
