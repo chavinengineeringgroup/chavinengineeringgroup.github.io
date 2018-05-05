@@ -3,21 +3,28 @@
 
 @import "{{ site.theme }}";
 
+.nav {
+    width: 100%;
+    background-color: #333;
+    margin: auto;
+}
+
 .nav ul {
     /* position: fixed;
     top: 0;*/
-    width: 100%;
-    padding: 0px;
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
-    margin: 0 auto;
     text-align: center;
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
 }
 
+
 .nav li {
-    float: left;
-    display: inline-block;
+    position: relative;
+    left: 50%;
 }
 
 .nav li a {
