@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #eee6cb;
+    background-color: #333;
 }
 
 .nav li {
@@ -17,7 +17,7 @@
 
 .nav li a {
     display: block;
-    color: #606c71;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,8 +25,7 @@
 
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
-    background-color: #ddcf99;
-    color: #8C1515;
+    background-color: #111;
 }
 
 .page-header {
