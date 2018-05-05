@@ -9,6 +9,13 @@
     margin: auto;
 }
 
+.center {
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+
 .nav ul {
     /* position: fixed;
     top: 0;*/
@@ -18,11 +25,6 @@
     width: 100%;
     list-style-type: none;
     overflow: hidden;
-    text-align: center;
-    float: right;
-    position: relative;
-    /*left: -50%;  or right 50% */
-    text-align: left;
 }
 
 
