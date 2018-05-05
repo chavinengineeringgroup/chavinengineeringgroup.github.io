@@ -12,6 +12,8 @@
 .nav ul {
     /* position: fixed;
     top: 0;*/
+    margin: auto;
+    padding: 0px;
     list-style-type: none;
     overflow: hidden;
     text-align: center;
@@ -23,6 +25,7 @@
 
 
 .nav li {
+    float: left;
     position: relative;
     left: 50%;
 }
