@@ -12,12 +12,15 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
+    float: right;
+
+    position: relative;
+    left: -50%; /* or right 50% */
 }
 
 .nav li {
-    float: right;
-    position: relative;
-    left: -50%; /* or right 50% */
+    float: left;
 }
 
 .nav li a {
