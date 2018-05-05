@@ -15,7 +15,9 @@
 }
 
 .nav li {
-    float: left;
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
 }
 
 .nav li a {
