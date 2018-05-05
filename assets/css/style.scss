@@ -38,14 +38,12 @@
     background: -moz-linear-gradient(right, #8C1515, #5E3032); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #8C1515, #5E3032); /* Standard syntax (must be last) */
 
-     max-height: 100px;
-     padding-top: 0;
 }
 
 .page-header h1 {
-    margin-top: 0;
 }
 
 .page-header img {
+    margin-top: -40px;
     float: left;
 }
