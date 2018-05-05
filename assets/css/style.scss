@@ -39,10 +39,11 @@
     background: linear-gradient(to right, #8C1515, #5E3032); /* Standard syntax (must be last) */
 
      max-height: 100px;
+     padding-top: 0;
 }
 
 .page-header h1 {
-    padding-top: 0;
+    margin-top: 0;
 }
 
 .page-header img {
